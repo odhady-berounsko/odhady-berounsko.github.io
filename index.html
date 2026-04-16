@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Odhady Berounsko</title>
 
+<style>
+  body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+  }
+
+  header {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  }
+
+  header h1 {
+    font-size: 42px;
+    margin: 0;
+  }
+
+  header p {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #3b82f6;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  section {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+
+  .card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    color: #60a5fa;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    opacity: 0.6;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Odhady Berounsko</h1>
+  <p>Rychlé a moderní odhady cen nemovitostí v regionu Berounska</p>
+  <a class="btn" href="#kontakt">Získat odhad</a>
+</header>
+
+<section>
+  <h2>Co děláme</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🏠 Domy</h3>
+      <p>Odhad tržní ceny rodinných domů.</p>
+    </div>
+    <div class="card">
+      <h3>🏢 Byty</h3>
+      <p>Rychlé ocenění bytových jednotek.</p>
+    </div>
+    <div class="card">
+      <h3>🌳 Pozemky</h3>
+      <p>Analýza hodnoty stavebních pozemků.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Jak to funguje</h2>
+  <div class="card">
+    <ol>
+      <li>Pošlete nám informace o nemovitosti</li>
+      <li>My provedeme analýzu trhu</li>
+      <li>Do 24–48 hodin dostanete odhad ceny</li>
+    </ol>
+  </div>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakt</h2>
+  <div class="card">
+    <p>Email: info@odhady-berounsko.cz</p>
+    <p>Telefon: +420 XXX XXX XXX</p>
+    <a class="btn" href="mailto:info@odhady-berounsko.cz">Napsat email</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Odhady Berounsko
+</footer>
+
+</body>
+</html>
